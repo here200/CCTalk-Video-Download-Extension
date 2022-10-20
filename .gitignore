@@ -1,0 +1,6 @@
+# pycharm
+/**/.idea/*
+/**/data/*
+
+# python_temp_files
+/**/__pycache__/*
