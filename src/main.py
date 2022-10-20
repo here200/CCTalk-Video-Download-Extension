@@ -38,7 +38,7 @@ def download(m_lists, index, seq=True):
 if __name__ == '__main__':
     # 第一种使用方法
     get_by_course_id('1612582780690810')
-    download(movie_list, 0)
+    # download(movie_list, 0)
 
     # 第二种使用方法
     # movie_list = get_by_movie_id('16444799633133')
