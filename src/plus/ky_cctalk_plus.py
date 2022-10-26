@@ -5,6 +5,7 @@ from common.util import ky_debugs
 movie_list = []
 
 
+# 根据课程系列号，获取所有的视频信息
 def get_by_course_id(series_id):
     movie_list.clear()
     # 获取课程的所有视频id
@@ -15,6 +16,7 @@ def get_by_course_id(series_id):
     ky_debugs.print_container_elements(movie_list)
 
 
+# 根据单个视频id，获取单个视频信息
 def get_by_movie_id(movie_id):
     movie_list.clear()
     ky_cctalk.get_title_href(movie_id, movie_list)
