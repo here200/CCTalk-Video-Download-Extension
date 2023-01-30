@@ -1,10 +1,10 @@
-from plus import cctalk_plus, download_plus
+from plus import usage1
 
 if __name__ == '__main__':
     # 第一种使用方法
-    cctalk_plus.get_by_course_id('1612582780690810')
-    # download_plus.download(cctalk_plus.movie_list, 26)
+    movie_list1 = usage1.get_by_course_id('1612582780690810')
+    # usage1.download(movie_list1, 26)
 
     # 第二种使用方法
-    # cctalk_plus.get_by_movie_id('16444799633133')
-    # download_plus.download(cctalk_plus.movie_list, 0, seq=False)
+    # movie_list2 = usage1.get_by_movie_id('16433005891810')
+    # usage1.download(movie_list2, seq=False)
